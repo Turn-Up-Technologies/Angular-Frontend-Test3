@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/logo.png" alt="" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0"> <!-- Added mx-auto here to center the items -->
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Date</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Docs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Company</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="console-btn" type="submit"><img src="/apps (1) 2.png" alt=""> Console <img src="/Vector 3015.png" alt=""></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide1">
+            <div class="center-body">
+                <h5>Coding is logical, data is empirical.</h5>
+                <h1>Enjoy coding, <br/>Leave data to <span class="green"> algoseek.</span></h1>
+                <p>Financial data, technology and services.</p>
+              </div> 
+          </div>
+          <div class="swiper-slide slide2">
+            <div class="center-body">
+                <h5>Coding is logical, data is empirical.</h5>
+                <h1>Enjoy coding, <br/>Leave data to <span class="green"> algoseek.</span></h1>
+                <p>Financial data, technology and services.</p>
+              </div> 
+          </div>
+          <div class="swiper-slide slide3">
+            <div class="center-body">
+                <h5>Coding is logical, data is empirical.</h5>
+                <h1>Enjoy coding, <br/>Leave data to <span class="green"> algoseek.</span></h1>
+                <p>Financial data, technology and services.</p>
+              </div> 
+          </div>
+        </div>
+        
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  
+      <div class="counter-section">
+        <div class="container">
+            <p>Since our inception in 2015, we’ve been fusing advanced technology and financial data <br/> know-how to empower our clients worldwide to achieve business success.</p>
+            <div class="row mt-5">
+                <div class="col-md-3 col-sm-12">
+                    <div class="counter-card">
+                        <p class="green">Subcribed by</p>
+                        <div class="divider"></div>
+                        <h2>550+</h2>
+                        <p>INSTITUTION</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="counter-card">
+                        <p class="green">Including</p>
+                        <div class="divider"></div>
+                        <h2>200+</h2>
+                        <p>DATASETS</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="counter-card">
+                        <p class="green">Data total</p>
+                        <div class="divider"></div>
+                        <h2>3,000+</h2>
+                        <p>TERABYTES</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="counter-card">
+                        <p class="green">Total live-trading AUM</p>
+                        <div class="divider"></div>
+                        <h2>$350+</h2>
+                        <p>BILLION</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div> 
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 1,
+          spaceBetween: 0,
+          autoplay: {
+            delay: 4000,  
+            disableOnInteraction: false, 
+          },
+          speed: 3000,
+          loop: true,  
+          pagination: false, 
+        });
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

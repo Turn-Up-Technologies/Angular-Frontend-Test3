@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-link{
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+.console-btn{
+    background-color: #59A745;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.logo{
+    width: 180px;
+}
+.console-btn img{
+    width: 14px;
+    margin-top: -2px;
+}
+.green{
+    color: #59A745;
+}
+.center-body{
+    text-align: center;
+    padding: 160px 10px 190px;
+    width: 100%;
+
+}
+.center-body h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.center-body p{
+    font-size: 20px;
+    color: #575A5C;
+    margin-top: 15px;
+}
+.center-body h5{
+    margin-bottom: 15px;
+}
+.counter-section{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6), /* Dark overlay */
+        rgba(0, 0, 0, 0.6)
+      ), url('banner.jpg');
+    padding: 80px 10px;
+    color: #fff;
+    text-align: center;
+}
+.counter-section p{
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.counter-section h2{
+    font-size:40px;
+    font-weight: 600;
+}
+.counter-card P{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.divider{
+    width: 25px;
+    border-bottom: 2px solid #59A745;
+    margin: 11px 0px
+}
+.counter-card{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+}
+.swiper-container {
+    overflow: hidden;
+  }
+
+  .swiper-slide {
+    transition: transform 3s ease; /* Smooth transition for slide effect */
+  }
+@media only screen and (max-width: 800px) {
+    .center-body h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+  }
